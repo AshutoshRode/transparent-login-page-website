@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: rgb(36 208 90);
+    position:absolute;
+    top: 23%;
+    left: 62%;
+}
+.container h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 52px;
+    border-bottom: 5px solid rgb(0, 191, 255);
+    margin-bottom: 25px;
+    padding:  13px -5;
+
+}
+.box{
+    width :100%;
+    /* border:2px solid red; */
+    padding: -11px;
+    margin: 8px -15px;
+    border-bottom:1px solid rgb(0, 191, 255);
+    
+}
+.box input{
+    background: none;/* this line are used for transparent bg  */
+    width :75%;
+    /* margin: 2px 23px; */
+    margin: 14px 7px;
+    padding: 6px;
+    border:none;
+    outline:none;
+    color:white;
+    font-size: 20px;
+  
+
+}
+.box i{
+    width:50px;
+    /* float: left; */
+    text-align: center;
+}
+.btn{
+    font-family: 'Concert One', cursive;
+
+    cursor: pointer;
+    outline: none;
+    width: 31%;
+    margin: 31px 12px;
+    padding:6px;
+    border-radius: 25px;
+    color: rgba(246, 248, 249, 0.815);
+    /* border-color: rgb(0, 123, 255); */
+    border: none;
+    font-size: 35px;
+    font-weight: bold;
+    background:none;  /* this line are used for transparent bg  */
+
+}
+.btn:hover{
+    color:black;
+    background-color: rgb(176, 254, 174);
+    opacity: 0.9;
+}
